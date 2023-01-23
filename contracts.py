@@ -6,6 +6,7 @@ import numpy as np
 import plotly.graph_objects as go
 
 app = Dash(__name__)
+server = app.server
 
 # upload data
 # df = pd.read_csv("/Users/chancock/PycharmProjects/udot/venv/data_files/data-19-22.csv", low_memory=False)
